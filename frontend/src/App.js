@@ -4,7 +4,7 @@ import './App.css';
 import { UserProvider, useUser  } from './contexts/UserContext';
 import LayoutUtama from './component/LayoutUtama';
 import Login from './component/FormLogin';
-import Dashboard from './component/Dashboard'; // <--- PASTIKAN COMPONENT INI ADA
+import Dashboard from './component/Dashboard';
 import ListBarang from './component/ListBarang';
 import PrivateRoute from './component/PrivateRoute';
 import ListTransaksi from './component/ListTransaksi';

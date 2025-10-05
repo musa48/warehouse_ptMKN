@@ -1,5 +1,3 @@
-// src/component/PrivateRoute.jsx (Perbaikan yang diperlukan)
-
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { useUser } from '../contexts/UserContext';

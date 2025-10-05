@@ -27,6 +27,7 @@ export const UserProvider = ({ children }) => {
     setIsLoading(false);
   };
 
+// Fungsi Cek Token
   const checkAuth = () => {
     setIsLoading(true);
     const JWTtoken = localStorage.getItem('JWTtoken');

@@ -62,7 +62,6 @@ function ListBarang() {
     fetchBarang();
   }, []);
 
-  // filter berdasarkan search
   const filtered = barangList.filter(
     (b) =>
       b.nama_barang?.toLowerCase().includes(search.toLowerCase()) ||
@@ -78,7 +77,6 @@ function ListBarang() {
         })
       : filtered;
 
-  // toggle sort saat klik header
   const handleSort = (key) => {
     if (sortKey === key) {
       setSortOrder(sortOrder === "asc" ? "desc" : "asc");
