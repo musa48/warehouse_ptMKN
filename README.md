@@ -18,6 +18,6 @@ NOTE :
 1. karena dalam database tersebut saya dump bersama isi datanya, anda bisa login dengan akun :
     => usernam: musa48, password: 48family
 2. jika ingin buat akun baru di endpoint, silahkan buka url di tools seperti postmant dengan ketentuan :
-   - url http://localhost:4000/auth/register
+   - url http://localhost:4000/auth/register (perbaikan --> http://localhost:4000/api/auth/register) 
    - method:post
    - param(nama_pengguna, username, pass_user, role_user{admin,staff})
